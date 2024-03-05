@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    background-color: rgb(230, 228, 221);
+    /* width: 100%; */
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.checks{
+    display: flex;
+    text-align: center;
+    margin-left: 36%;
+}
+
+.inputs input{
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+    /* border: none;
+    outline: none; */
+}
+
+.checks > input{
+  margin: 0 15px;
+  font-size: 3rem;
+}
+
+.checks  input[type = "checkbox"]{
+   width: 20px;
+   height: 20px;
+}
+
+.table{
+    width: 100%;
+    height: auto;
+}
+
+.table table{
+    width: 90%;
+    /* height: 300px;  */
+    margin-left: 5%;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.table table tr td{
+    padding: 15px 10px;
+    font-weight: 300;
+}
+
+thead tr th{
+     padding: 10px 10px;
+     font-size: 16px;
+}
+
+.pagination{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.pagination > button{
+    padding: 8px 12px;
+    color: black;
+    background-color: rgb(150, 228, 221);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+button.active
+{
+    background-color: rgb(25, 228, 194);
+    border: 2px solid black;
+}
+
+
+
+
